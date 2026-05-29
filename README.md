@@ -1,40 +1,41 @@
-### Socio-Economic of Indonesia in 2021
-**Суть проекта:** анализ социально-экономических показателей Индонезии по регионам.
-* Загрузка и предварительная проверка датасета (Kaggle).
-* Анализ структуры данных, проверка на пропуски.
-* Построение корреляционной матрицы.
-* Визуализация взаимосвязей между социально-экономическими показателями.
+### Customer churn prediction
+**The essence of the project:** prediction of customer churn and identification of clients with a high risk of leaving.
+* Uploading and preprocessing customer data.
+* Analysis of customer behavior, payment delays and usage patterns.
+* Building baseline Logistic Regression and CatBoost models.
+* Comparison of model quality: Accuracy improved from 0.75 to 0.88.
+* Segmentation of customers by churn risk and preparation of business recommendations.
 
 
-### Накрутка кликов
-**Суть проекта:** выявление признаков искусственной активности пользователей (накрутка кликов).
-* Загрузка данных о кликах пользователей.
-* Анализ распределения кликов по пользователям и событиям.
-* Подсчёт CTR и выявление аномально высоких значений.
-* Определение признаков неестественной активности.
+### Click fraud
+**The essence of the project:** detection of signs of artificial user activity (click fraud).
+* Uploading data on user clicks.
+* Analysis of the distribution of clicks by users and events.
+* Calculation of CTR and detection of abnormally high values.
+* Identification of signs of unnatural activity.
 
 
-### Исследование диабета
-**Суть проекта:** анализ факторов, влияющих на вероятность развития диабета.
-* Загрузка и предобработка медицинских данных.
-* Построение модели для выявления значимых факторов.
-* Анализ влияния давления, ИМТ и возраста на наличие диабета.
-* Визуализация зависимости между ключевыми параметрами.
+### Diabetes Research
+**Project summary:** analysis of factors that influence the probability of developing diabetes.
+* Loading and preprocessing medical data.
+* Building a model to identify significant factors.
+* Analyzing the impact of blood pressure, BMI, and age on the presence of diabetes.
+* Visualizing the relationship between key parameters.
 
 
-### Регионы России
-**Суть проекта:** исследование социально-экономической уязвимости регионов России. 
-* Загрузка данных по 84 регионам с 36 социально-экономическими признаками.
-* Нормализация данных и подготовка признаков.
-* Кластеризация регионов с использованием модели GMM.
-* Анализ характеристик полученных кластеров.
+### Regions of Russia
+**The essence of the project:** study of the socio-economic vulnerability of the regions of Russia. 
+* Loading data on 84 regions with 36 socio-economic features.
+* Normalization of data and preparation of features.
+* Clustering of regions using the GMM model.
+* Analysis of the characteristics of the obtained clusters.
 
 
-### Trying to predict profitable days
-**Суть проекта:** прогнозирование прибыльных дней на основе исторических сигналов.
-* Загрузка исторических сигналов и целевых данных.
-* Кластеризация с помощью K-Means, подбор числа кластеров методом «локтя».
-* Снижение размерности данных с помощью PCA.
-* Добавление временных признаков (месяц, день недели, начало/конец месяца).
-* Обучение моделей классификации (Random Forest, Dummy Classifier).
-* Оценка качества моделей и сравнение с базовыми результатами.
+### Profitable days prediction
+**The essence of the project:** predicting profitable days based on historical signals.
+* Loading historical signals and target data.
+* Clustering using K-Means, selecting the number of clusters using the elbow method.
+* Reducing the data dimensionality using PCA.
+* Adding temporal features (month, day of the week, beginning/end of the month).
+* Training classification models (Random Forest, Dummy Classifier).
+* Evaluating the quality of the models and comparing them with the baseline results.
